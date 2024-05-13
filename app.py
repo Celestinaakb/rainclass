@@ -18,4 +18,4 @@ if img_file:
     results = model(img_file.name, stream=False)
     results[0].save(filename='result.png')
     st.image('result.png', caption='Here are your predictions!')
-    col2.image("results.png", caption = "Results from YOLO", use_column_width = True)
+    col2.image("result.png", caption = "Results from YOLO", use_column_width = True)

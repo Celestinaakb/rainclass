@@ -1,0 +1,4 @@
+
+ultralytics==8.1.47
+pillow==10.3.0
+streamlit
